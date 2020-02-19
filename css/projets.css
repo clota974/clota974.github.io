@@ -15,8 +15,11 @@ nav a:hover{
 nav span{
     color: #FFF;
 }
-@media (hover: none) and (pointer: coarse) {
-    .title{
-        transform: scale(0.7);
-    }
+
+
+p{
+    padding: 5px 30px;
+
+    color: #FFE100;
+    font-size: 140%;
 }
