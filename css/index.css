@@ -40,4 +40,8 @@ a.stackoverflow{
     body, html{
         transform: scale(0.8);
     }
+
+    .lastname{
+        font-size: 6vh;
+     }
 }

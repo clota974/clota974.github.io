@@ -76,16 +76,24 @@ nav a:hover::after{
     left: 10px;
     content: "<";
 }
+
+.home{
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+    font-size: 200%;
+
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 @media (hover: none) and (pointer: coarse) {
     .cursor{
-        display: none;
+        display: none !important;
+    }
+    .home{
+        font-size: 100%;
     }
 }
-@media screen and (max-width: 700px){
-    body, html{
-        transform: scale(0.8);
-    }
-    .lastname{
-       font-size: 6vh;
-    }
-}
+
