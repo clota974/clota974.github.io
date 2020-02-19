@@ -18,12 +18,14 @@ body, html{
     font-family: "Retro Gaming";
     background: #FFE100;
     cursor: url(cursor.png) 0 0, auto;
+    overflow: hidden;
 }
 
 header h1{
     font-size: 10vh;
     text-align: center;
 }
+
 
 nav{
     display: grid;
