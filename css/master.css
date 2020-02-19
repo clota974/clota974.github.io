@@ -5,7 +5,7 @@
 
 @font-face{
     font-family: "Retro Gaming";
-    src: url("font.ttf");
+    src: url("../src/font.ttf");
 }
 
 body, html{
@@ -16,17 +16,37 @@ body, html{
     margin: 0;
 
     font-family: "Retro Gaming";
-    background: #FFE100;
-    cursor: url(cursor.png) 0 0, auto;
-    overflow: hidden;
+}
+*{
+    cursor: none !important;
+}
+.cursor{
+    transition: top 10ms ease, left 10ms ease;
+
+    position: fixed;
+    display: inline-block;
+    content: "";
+    top: -50px;
+    left: -50px;
+    height: 50px;
+    width: 50px;
+
+    background: url("../src/cursor.svg") no-repeat;
+    background-size: contain;
+    z-index: 99;
+    pointer-events: none;
 }
 
 header h1{
     font-size: 10vh;
     text-align: center;
 }
-
-
+.name{
+    margin-bottom: 0;
+}
+.lastname{
+    margin-top: 0;
+}
 nav{
     display: grid;
     grid-auto-flow: row;
@@ -55,4 +75,9 @@ nav a:hover::after{
     position: relative;
     left: 10px;
     content: "<";
+}
+@media (hover: none) and (pointer: coarse) {
+    .cursor{
+        display: none;
+    }
 }

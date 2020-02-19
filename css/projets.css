@@ -1,0 +1,22 @@
+body{
+    background: #5700B9;
+}
+
+h1{
+    color: #FFE100;
+}
+
+nav a{
+    color: #FF65F8;
+}
+nav a:hover{
+    color: #00FF20;
+}
+nav span{
+    color: #FFF;
+}
+@media (hover: none) and (pointer: coarse) {
+    .title{
+        transform: scale(0.7);
+    }
+}
