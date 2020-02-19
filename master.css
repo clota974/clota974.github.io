@@ -3,6 +3,11 @@
     outline: none;
 }
 
+@font-face{
+    font-family: "Retro Gaming";
+    src: url("font.ttf");
+}
+
 body, html{
     width: 100vw;
     height: 100vh;
@@ -27,6 +32,7 @@ nav{
     gap: 2vh;
 }
 nav a{
+    display: inline-block;
     position: relative;
     height: 9vh;
     text-decoration: none;

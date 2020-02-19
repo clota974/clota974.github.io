@@ -30,3 +30,9 @@ a.github{
 a.stackoverflow{
     color: #FF7F00;
 }
+
+@media screen and (max-width: 700px){
+    body, html{
+        transform: scale(0.8)
+    }
+}
