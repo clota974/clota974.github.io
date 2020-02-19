@@ -1,0 +1,32 @@
+footer{
+    display: block;
+    width: 100vw;
+    position: fixed;
+    bottom: 30px;
+
+    text-align: center;
+    font-size: 7vh;
+}
+
+footer a{
+    text-decoration: none;
+    padding: 0 10px;
+}
+footer a:hover{
+    background: #FFF;
+}
+a.twitter{
+    color: #00B8FF;
+}
+a.facebook{
+    color: #1800FF;
+}
+a.instagram{
+    color: #FF00D1;
+}
+a.github{
+    color: #8C00FF;
+}
+a.stackoverflow{
+    color: #FF7F00;
+}
