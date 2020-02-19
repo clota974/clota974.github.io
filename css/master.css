@@ -26,8 +26,8 @@ body, html{
     position: fixed;
     display: inline-block;
     content: "";
-    top: -50px;
-    left: -50px;
+    top: -100vh;
+    left: -100vw;
     height: 50px;
     width: 50px;
 
