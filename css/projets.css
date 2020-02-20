@@ -18,10 +18,11 @@ nav span{
 
 
 p{
-    padding: 10px 30px;
+    padding: 10px 7vw;
 
     color: #FFE100;
     font-size: 140%;
+    text-align: justify;
 }
 
 .image{
